@@ -1,0 +1,15 @@
+$b-primary: #8121f0;
+$b-primary-light: lighten($b-primary, 5%);
+$b-primary-lightest: lighten($b-primary, 10%);
+$b-primary-dark: darken($b-primary, 5%);
+$b-primary-darkest: darken($b-primary, 10%);
+
+$b-secondary: #2d8;
+$b-secondary-light: lighten($b-secondary, 5%);
+$b-secondary-lightest: lighten($b-secondary, 10%);
+$b-secondary-dark: darken($b-secondary, 5%);
+$b-secondary-darkest: darken($b-secondary, 10%);
+
+$body-color: #828282;
+$header-color: darken($body-color, 15%);
+

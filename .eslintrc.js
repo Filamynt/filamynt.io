@@ -24,6 +24,14 @@ module.exports = {
   },
   // add your custom rules here
   'rules': {
+    "semi": 0,
+    "indent": [2, 4],
+    "no-console": 0,
+    "arrow-body-style": 0,
+    "no-shadow": 0,
+    "no-dynamic-require": 0,
+    "global-require": 0,
+    "no-unused-vars": 0,
     // don't require .vue extension when importing
     'import/extensions': ['error', 'always', {
       'js': 'never',

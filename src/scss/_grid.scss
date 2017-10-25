@@ -1,0 +1,5 @@
+.landing-layout {
+    display: grid;
+    grid-template-rows: 130px minmax(60vh, auto) 1fr 200px;
+    grid-template-columns: repeat(12, 1fr);
+}

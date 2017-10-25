@@ -1,0 +1,17 @@
+.footer {
+    background: $medium-grey;
+}
+
+.footer-social {
+    list-style: none;
+
+    li {
+        font-size: 30px;
+        width: 30px;
+        height: 30px;
+
+        &:not(:last-of-type) {
+            margin-right: $m-space;
+        }
+    }
+}

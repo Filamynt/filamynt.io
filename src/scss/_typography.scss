@@ -1,0 +1,34 @@
+.primary-header {
+    &::after {
+        background: $light-grey;
+        content: '';
+        display: block;
+        height: 4px;
+        margin: $l-space auto 1.5rem;
+        width: 50px;
+    }
+}
+
+.header-secondary {
+    font-size: $l-space;
+
+    &::after {
+        background: $b-primary;
+        content: '';
+        display: block;
+        height: 2px;
+        margin: $m-space 0 1.5rem;
+        width: 50px;
+    }
+}
+
+.lead {
+    font-size: 1.3rem;
+    line-height: 1.7;
+}
+
+p {
+    font-size: $l-space;
+    line-height: 1.5;
+}
+

@@ -1,0 +1,33 @@
+.form-control {
+    border-radius: 6px;
+    overflow: hidden;
+
+    @include tablet {
+        flex-direction: column;
+        border-radius: 0;
+    }
+
+    input {
+        background: $lightest-grey;
+        border: 0;
+        flex: 1;
+        padding: $xl-space;
+
+        &:active,
+        &:focus {
+            outline: none;
+            background: darken($lightest-grey, 4%);
+            box-shadow: 0 0 2px rgba($black, .1) inset;
+            border-radius: 6px 0 0 6px;
+        }
+    }
+
+    .button {
+        min-width: 14rem;
+        border-radius: 0;
+
+        @include tablet {
+            margin-top: $l-space;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+@import '~scss-starting-point/ssp';
+@import './variables';
+@import './textures';
+@import './button';
+@import './general';
+@import './typography';
+@import './animations';
+@import './lazy';
+@import './grid';
+@import './forms';
+
+// Landing
+@import './landing/hero';
+@import './landing/about';
+@import './landing/footer';
+
+// FOOTER
+@import './footer/footer';
+
+// Navigation
+@import './nav/main-nav';

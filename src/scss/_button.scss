@@ -1,0 +1,32 @@
+.button-group {
+    > * {
+        &:not(:last-child) {
+            margin-right: $l-space;
+        }
+    }
+}
+
+.button {
+    &.primary {
+        background: $b-primary;
+    }
+
+    &.primary-hallow {
+        border-color: $b-primary;
+        color: $b-primary;
+
+        &:hover {
+            background: $b-primary;
+        }
+    }
+
+    &.gradient {
+        background: linear-gradient(to bottom, $b-primary, $b-primary-lightest);
+        border: 0;
+        color: $white;
+
+        &:hover {
+            background: linear-gradient(to bottom, $b-primary, $b-primary-dark);
+        }
+    }
+}

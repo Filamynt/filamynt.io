@@ -1,15 +1,17 @@
-import Vue from 'vue';
-import Router from 'vue-router';
-import Hello from '@/components/Hello';
+import Vue from 'vue'
+import Router from 'vue-router'
+import Landing from '@/components/landing/Landing'
 
-Vue.use(Router);
+Vue.use(Router)
 
 export default new Router({
-  routes: [
-    {
-      path: '/',
-      name: 'Hello',
-      component: Hello,
+    mode: 'history',
+    scrollBehavior(to, from) {
+        return { x: 0, y: 0 }
     },
-  ],
-});
+    routes: [{
+        path: '/',
+        name: 'Landing',
+        component: Landing,
+    }],
+})

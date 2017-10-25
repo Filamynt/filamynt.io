@@ -1,0 +1,16 @@
+img,
+.lazy {
+    transition: opacity 300ms ease;
+
+        &[lazy] {
+            opacity: 0;
+        }
+
+        &[lazy='loading'] {
+            opacity: 0;
+        }
+
+        &[lazy='loaded'] {
+            opacity: 1;
+        }
+}

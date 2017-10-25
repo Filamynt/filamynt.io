@@ -1,0 +1,34 @@
+body {
+    font-family: "nimbus-sans",sans-serif;
+    border-top: 6px solid $b-primary;
+}
+
+#app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+// sass-lint:disable-all
+h1, h2, h3, h4, h5, h6, p {
+    color: $header-color;
+    margin: 0;
+}
+
+.logo {
+    max-width: 100%;
+}
+
+a {
+    color: $b-primary;
+    font-weight: $font-bold;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.card {
+    background: $lightest-grey;
+    border-radius: 6px;
+}
