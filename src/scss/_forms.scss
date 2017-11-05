@@ -9,9 +9,13 @@
 
     input {
         background: $lightest-grey;
-        border: 0;
         flex: 1;
         padding: $xl-space;
+        border-radius: 6px 0 0 6px;
+
+        @include tablet {
+            border-radius: 6px;
+        }
 
         &:active,
         &:focus {
@@ -29,5 +33,17 @@
         @include tablet {
             margin-top: $l-space;
         }
+    }
+}
+
+.fixed-alert {
+    left: 0;
+    right: 0;
+    position: fixed;
+    bottom: -30%;
+
+    @include tablet {
+        flex-direction: column;
+        position: relative;
     }
 }

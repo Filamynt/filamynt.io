@@ -1,7 +1,7 @@
 <template>
-    <div class="hero-marketing">
+    <div class="hero-marketing relative">
         <h1 class="hero-marketing-lead l-m-b">Advanced API analytics and insights</h1>
-        <p class="lead xl-m-b">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, repudiandae minima. Magni dolore quaerat tempora aspernatur recusandae expedita accusamus numquam!</p>
+        <p class="lead l-m-b">Understanding and monitoring the Key Performance Indicators is the single most important factor in improving your API and delivering the best experience to your clients.</p>
         <hero-join></hero-join>
     </div>
 </template>
